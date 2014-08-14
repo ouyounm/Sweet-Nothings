@@ -1,6 +1,6 @@
 <body class ="homepage">
     <div class="home_container">
-      <nav class="top-bar" data-topbar>
+      <nav class="top-bar header" data-topbar>
         <section class="top-bar-section">
 
           <!-- Right Nav Section -->
@@ -17,7 +17,14 @@
         </section>
       </nav>
       <div class="logo"><%= image_tag("SN_Logo_Zing_with_Tagline.png") %></div>
+      <ul>
+      <li class="phone_links"><%= link_to "Contact", root_url, {class: "phone_links_text"} %></li>
+   <li class="phone_links"><%= link_to "Menu", root_url, {class: "phone_links_text"} %></li>
+     <li class="phone_links"><%= link_to "Events", root_url, {class: "phone_links_text"} %></li>
+        <li class="phone_links"><%= link_to "Our Story", root_url, {class: "phone_links_text"} %></li>
+      </ul>
       </div>
+
 
             <nav class="top-bar footer" data-topbar>
               <div class="large-12 columns">
